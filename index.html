@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>L. Corp Help Bot</h1>
+
+        <div id="conversation-display" class="conversation-display">
+            <!-- As mensagens da conversa serão exibidas aqui -->
+            <div class="message bot-message">Welcome to the Lobotomy Corporation Help Bot!</div>
+        </div>
+
+        <div id="choices-area" class="choices-area">
+            <!-- Os botões de escolha do usuário serão exibidos aqui -->
+        </div>
+
+        <div class="controls">
+            <button id="restart-button" class="action-button">Restart Conversation</button>
+        </div>
+
+        <div id="message-box" class="modal">
+            <div class="modal-content">
+                <p id="message-text"></p>
+                <button id="close-message-btn" class="action-button">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
