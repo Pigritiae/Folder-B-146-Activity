@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         'core_disciplinary': {
-            message: '',
+            message: "The Red Mist is a 4 Phase Boss Fight with Changing Resistances and Attack Types. Everytime the Red Mist Reaches a Certain HP Threshold, she Will Creates Portals and Rush Across the Facility, Damaging All in her Path and Stopping in a Department's Main Room, she Will not Travel at Elevators, Nor at Control, Info, Central, Disciplinary, and Welfare Departments's Secondary Main Rooms. Make Sure that no Agents are on Stadby on the Same Floor as her from Phase 2 and Onward, and to Retreat your Agents Immediatly When she Changes Phases. Phase 3 Has a Dangerous Pale Damage Attack, Have Agents with Medium-Very Short Range Weapons; To Move Them Behind her When she is About to Perform is; and Very Long Range Weapons; Across the Room to Not Get Hit by the Wave. At Phase 4, She will Either Perform her Portal Rush Attack or Mark an Agent and Rush Towards Them, Performing a Fatal Flurry of Attacks and Leaving herself Vulnerable Afterwards, The Marked Agent and Have Them Both Meet while Entering a Room, Stopping the Attack, or Find Where her Last Portal is and Move your Agents to Quickly Suppress her.",
             choices: [
                 { text: 'Thanks, I Still have Some More Questions', nextNodeId: 'start' },
                 { text: 'Thanks, That is all I Wanted to Know.', nextNodeId: 'end_conversation' },
@@ -380,3 +380,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Initialization ---
     displayNode(currentNodeId); // Start the conversation
 });
+
